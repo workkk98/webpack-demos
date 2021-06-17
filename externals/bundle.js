@@ -16,7 +16,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("\n\nvar _jquery = __webpack_require__(/*! jquery */ \"jquery\");\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\nvar _fsExtra = __webpack_require__(/*! fs-extra */ \"fs-extra\");\n\nvar _fsExtra2 = _interopRequireDefault(_fsExtra);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar data = __webpack_require__(/*! data */ \"data\");\nvar React = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\nvar ReactDOM = __webpack_require__(/*! react-dom */ \"../node_modules/react-dom/index.js\");\n\n\nReactDOM.render(React.createElement(\n  'h1',\n  null,\n  data\n), document.body);\n\n//# sourceURL=webpack://webpack-demo14/./main.jsx?");
+eval("\n\nvar _jquery = __webpack_require__(/*! jquery */ \"jquery\");\n\nvar _jquery2 = _interopRequireDefault(_jquery);\n\nvar _indexCmd2Js = __webpack_require__(/*! index-cmd2-js */ \"index-cmd2-js\");\n\nvar _indexCmd2Js2 = _interopRequireDefault(_indexCmd2Js);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar data = __webpack_require__(/*! data */ \"data\");\nvar React = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\nvar ReactDOM = __webpack_require__(/*! react-dom */ \"../node_modules/react-dom/index.js\");\n// import subtract from 'subtract';\n\n\nReactDOM.render(React.createElement(\n  'h1',\n  null,\n  data\n), document.body);\n\n//# sourceURL=webpack://webpack-demo14/./main.jsx?");
 
 /***/ }),
 
@@ -140,6 +140,16 @@ module.exports = $;
 
 /***/ }),
 
+/***/ "index-cmd2-js":
+/*!*****************************!*\
+  !*** external "./const.js" ***!
+  \*****************************/
+/***/ ((module) => {
+
+module.exports = require("./const.js");;
+
+/***/ }),
+
 /***/ "data":
 /*!***********************!*\
   !*** external "data" ***!
@@ -147,16 +157,6 @@ module.exports = $;
 /***/ ((module) => {
 
 module.exports = data;
-
-/***/ }),
-
-/***/ "fs-extra":
-/*!***************************!*\
-  !*** external "fs-extra" ***!
-  \***************************/
-/***/ ((module) => {
-
-module.exports = require("fs-extra");;
 
 /***/ })
 

@@ -21,6 +21,19 @@ import $ from 'jquery'
 subtract: ['Math', 'floor'],
 ```
 
+### 除了root以外还有commonjs、commonjs2、amd等libraryTarget
+
+```js
+{
+  externals: {
+    'fs-extra': 'commonjs2 fs-extra',
+  }
+}
+```
+
+例如libraryTarget/dist/index.cmd2.js
+这些估计是给node打包用的，不用去关注。
+
 ### 像umd类的包
 
 ```js

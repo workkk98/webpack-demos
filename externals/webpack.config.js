@@ -27,6 +27,6 @@ module.exports = {
     'data': 'data',
     'jquery': '$',
     // subtract: ['./math', 'subtract'],
-    'fs-extra': 'commonjs2 fs-extra'
+    'index-cmd2-js': 'commonjs2 ./const.js'
   }
 };
