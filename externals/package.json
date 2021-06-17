@@ -1,0 +1,9 @@
+{
+  "name": "webpack-demo14",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "../node_modules/.bin/webpack-dev-server --open",
+    "build": "../node_modules/.bin/webpack-dev-server"
+  },
+  "license": "MIT"
+}
