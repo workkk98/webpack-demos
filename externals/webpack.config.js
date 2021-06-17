@@ -1,6 +1,10 @@
+const path = require('path');
+
 module.exports = {
+  mode: 'development',
   entry: './main.jsx',
   output: {
+    path: path.resolve(__dirname),
     filename: 'bundle.js'
   },
   module: {
@@ -20,6 +24,9 @@ module.exports = {
   externals: {
     // require('data') is external and available
     //  on the global var data
-    'data': 'data'
+    'data': 'data',
+    'jquery': '$',
+    // subtract: ['./math', 'subtract'],
+    'fs-extra': 'commonjs2 fs-extra'
   }
 };
